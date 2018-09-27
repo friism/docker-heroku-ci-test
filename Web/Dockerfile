@@ -11,4 +11,4 @@ FROM microsoft/dotnet:2.1-runtime-alpine AS runtime
 COPY --from=build /app /app
 
 WORKDIR /app
-CMD ASPNETCORE_URLS=http://+:$PORT dotnet web.dll
+CMD ASPNETCORE_URLS=http://+:$PORT dotnet Web.dll

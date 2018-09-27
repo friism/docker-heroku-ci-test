@@ -1,0 +1,6 @@
+build:
+  docker:
+    web: Web/Dockerfile
+setup:
+  config:
+    ASPNETCORE_URLS: "http://+:$PORT"

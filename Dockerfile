@@ -1,4 +1,4 @@
-FROM alpine
+FROM buildpack-deps:bionic-curl
 
 WORKDIR /ci
 

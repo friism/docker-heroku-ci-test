@@ -1,3 +1,10 @@
 {
-    "stack": "container"
+    "stack": "container",
+    "environments": {
+        "test": {
+            "scripts": {
+                "test": "echo hi"
+            }
+        }
+    }
 }

@@ -3,7 +3,7 @@
     "environments": {
         "test": {
             "scripts": {
-                "test": "echo hi"
+                "test": "sleep 1m && echo hi"
             }
         }
     }

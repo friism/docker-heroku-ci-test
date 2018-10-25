@@ -1,5 +1,7 @@
-FROM microsoft/dotnet:2.1-sdk-alpine AS build
-WORKDIR /app
+FROM alpine
 
-COPY . .
+WORKDIR /ci
 
+RUN curl -sSLo ci https://sprettur.herokuapp.com/sprettur
+RUN chmod a+x ci
+ENV PATH /ci:$PATH

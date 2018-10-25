@@ -1,6 +1,6 @@
 build:
   docker:
-    web: Web/Dockerfile
+    # web: Web/Dockerfile
     test: Dockerfile
 setup:
   config:

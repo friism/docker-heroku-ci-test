@@ -6,5 +6,8 @@
                 "test": "sleep 1m && echo hi"
             }
         }
-    }
+    },
+    "buildpacks": [
+        { "url": "https://github.com/cloudfoundry/dotnet-core-buildpack" }
+    ]
 }

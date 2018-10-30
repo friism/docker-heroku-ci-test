@@ -1,10 +1,13 @@
 {
-    "stack": "container",
+    "stack": "heroku-18",
     "environments": {
         "test": {
             "scripts": {
                 "test": "sleep 1m && echo hi"
             }
         }
-    }
+    },
+    "buildpacks": [
+        { "url": "https://github.com/cloudfoundry/dotnet-core-buildpack" }
+    ]
 }

@@ -1,5 +1,5 @@
 {
-    "stack": "container",
+    "stack": "heroku-18",
     "environments": {
         "test": {
             "scripts": {
